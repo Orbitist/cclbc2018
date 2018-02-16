@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  <meta charset='utf-8' />
+  <title>CCLBC Annual Report 2017</title>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <meta name="description" content="The Chautauqua County Land Bank Corporation (CCLBC) promotes strong neighborhoods and vibrant communities by addressing blight, improving property values, and transforming troubled properties into useful assets.">
+  <meta name="author" content="Chautauqua County Land Bank">
+  <meta property="og:title" content="Chautauqua County Land Bank Annual Report 2017" />
+  <meta property="og:description" content="The Chautauqua County Land Bank Corporation (CCLBC) promotes strong neighborhoods and vibrant communities by addressing blight, improving property values, and transforming troubled properties into useful assets." />
+  <meta property="og:image" content="/img/westfield_home.jpg" />
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@orbitistllc">
+  <meta name="twitter:creator" content="@orbitistllc">
+  <meta name="twitter:title" content="Chautauqua County Land Bank Annual Report 2017">
+  <meta name="twitter:description" content="The Chautauqua County Land Bank Corporation (CCLBC) promotes strong neighborhoods and vibrant communities by addressing blight, improving property values, and transforming troubled properties into useful assets.">
+  <meta name="twitter:image:src" content="/img/westfield_home.jpg">
+  <link rel="shortcut icon" href="/img/westfield_home.jpg">
+  <link rel="apple-touch-icon" sizes="152x152" href="/img/westfield_home.jpg">
+
+  <!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+  <!-- Font Awesome -->
+  <script src="https://use.fontawesome.com/a118b04c82.js"></script>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <!-- Chart.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
+
+  <!-- Style Sheets -->
+  <link href='/css/style.css' rel='stylesheet' />
+  <link href='/css/navbar.css' rel='stylesheet' />
+  <link href='/css/full-page-hero.css' rel='stylesheet' />
+  <link href='/css/hero.css' rel='stylesheet' />
+  <link href='/css/footer.css' rel='stylesheet' />
+  <link href='/css/odometer.css' rel='stylesheet' />
+  <link href='/css/charts.css' rel='stylesheet' />
+  <link href='/css/maps.css' rel='stylesheet' />
+  <link href='/css/videos.css' rel='stylesheet' />
+  <link href='/css/pull-quotes.css' rel='stylesheet' />
+</head>
+
+	<body>
+		<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">
+        <img alt="Brand" src="/img/cclbc_logo.png">
+      </a>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav pull-right">
+        <li><a href="introduction">Introduction</a></li>
+        <li><a href="mission">Mission</a></li>
+        <li><a href="problem">The Problem</a></li>
+        <li><a href="work">Our Work</a></li>
+        <li><a href="outcomes">Outcomes</a></li>
+        <li><a href="team">Team</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</nav>
+
+<div class="hero" style="background-image:url(img/pink_house.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;">
+  <div class="page-hero-overlay"></div>
+  <div class="title-block">
+    <h1>The Problem</h1>
+    <p>Vacancy & Blight in Chautauqua County</p>
+  </div>
+</div>
+
+<div class="content">
+  <div class="number">
+  <div class="col-xs-2">
+    <span class="fa fa-percent number-icon"></span>
+  </div>  
+  <div class="col-xs-10">
+    <div id="odometer" class="odometer vacancy">00.0</div>
+    <script>
+      $(window).scroll(function() {
+         var hT = $('.vacancy').offset().top,
+             hH = $('.vacancy').outerHeight(),
+             wH = $(window).height(),
+             wS = $(this).scrollTop();
+          console.log((hT-wH) , wS);
+         if (wS > (hT+hH-wH)){
+           setTimeout(function(){
+               $('.vacancy').html(22.4);
+           }, 100);
+         }
+      });
+    </script>
+  </div>
+  <div class="number-caption">Vacancy in the Chautauqua County in 2010</div>
+</div>
+
+<p>CCLBC serves all of Chautauqua County, urban and rural, with its 44 municipalities and 134,000 residents occupying 1500 square miles in some of the country’s oldest housing stock. Vacancy in the county was reported at 22.4% in the 2010 census (including seasonal vacancy), almost twice the national average. Blight in the form of vacant and abandoned homes has persisted both as a result of the foreclosure crisis as well as from persistent economic and population decline across the county.</p>
+
+<!-- Button trigger modal -->
+<p><button type="button" class="btn btn-default btn-lg center-block" data-toggle="modal" data-target="#czbModal"><i class="fa fa-map-marker"></i> View CZB Community Survey</button></p>
+
+<!-- Modal -->
+<div class="modal fade" id="czbModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">CZB Community Survey</h4>
+      </div>
+      <div class="modal-body">
+        <iframe width="100%" height="520" frameborder="0" src="https://cclbc.carto.com/builder/52b7f426-f9c6-11e6-9630-0e05a8b3e3d7/embed" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" oallowfullscreen="" msallowfullscreen=""></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+<p>The Land Bank focuses on a balanced strategy targeting highly distressed neighborhoods (primarily through the demolition program), transitional neighborhoods (rehabs for stabilization), and gateway/main streets (rural rehab and demolition). Targeted parcels are prioritized based on local input and our assessment of where we can achieve the maximum impact.</p>
+
+<p>Approximately 50% of CCLBC program funding is targeted in the City of Jamestown, the largest city in the county. Between 1990 and 2010, the number of vacant housing units there rose 36% according to the 2010 Census, causing Jamestown’s vacancy to rise to over 11%. Not only is there a critical need to remove blight from the city’s landscape, but there was a recognized need to stabilize neighborhoods that are falling prey to the insidious impacts wrought by vacancies and blighted properties.</p>
+
+<p>The Chautauqua County Land Bank Corporation’s scope of work mirrors components of several long-term plans for the revitalization of neighborhoods, particularly in Jamestown and Dunkirk, but also along the main streets and gateways to our more rural municipalities. Jamestown’s updated Neighborhood Strategy will serve as the foundation of our targeting strategy there. That plan dovetails with their Downtown Revitalization Initiative (DRI) in which the land bank contributes through property acquisition, demolition, parcel assemblage and rehab in the Main Street (gateway) corridor. Our work in Dunkirk will be further informed by the city’s Housing Survey that will be completed in 2017. Our programs enact objectives detailed in the County’s 20/20 Comprehensive Plan and the housing strategies being identified in the county executive’s THRIVE initiative, which engages community leaders in the execution of strategies that support the Comprehensive Plan.</p>
+
+<hr />
+
+<p><a href="work" class="btn btn-default btn-lg center-block">Our Work <i class="fa fa-arrow-right"></i></a></p>
+
+</div>
+<div class="footer">
+
+</div>
+
+
+		<script src="/js/navbar.js"></script>
+
+<!-- Odometer -->
+<script src="/js/odometer.min.js"></script>
+
+	</body>
+</html>

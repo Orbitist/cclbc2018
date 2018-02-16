@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  <meta charset='utf-8' />
+  <title>CCLBC Annual Report 2017</title>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <meta name="description" content="The Chautauqua County Land Bank Corporation (CCLBC) promotes strong neighborhoods and vibrant communities by addressing blight, improving property values, and transforming troubled properties into useful assets.">
+  <meta name="author" content="Chautauqua County Land Bank">
+  <meta property="og:title" content="Chautauqua County Land Bank Annual Report 2017" />
+  <meta property="og:description" content="The Chautauqua County Land Bank Corporation (CCLBC) promotes strong neighborhoods and vibrant communities by addressing blight, improving property values, and transforming troubled properties into useful assets." />
+  <meta property="og:image" content="/img/westfield_home.jpg" />
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@orbitistllc">
+  <meta name="twitter:creator" content="@orbitistllc">
+  <meta name="twitter:title" content="Chautauqua County Land Bank Annual Report 2017">
+  <meta name="twitter:description" content="The Chautauqua County Land Bank Corporation (CCLBC) promotes strong neighborhoods and vibrant communities by addressing blight, improving property values, and transforming troubled properties into useful assets.">
+  <meta name="twitter:image:src" content="/img/westfield_home.jpg">
+  <link rel="shortcut icon" href="/img/westfield_home.jpg">
+  <link rel="apple-touch-icon" sizes="152x152" href="/img/westfield_home.jpg">
+
+  <!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+  <!-- Font Awesome -->
+  <script src="https://use.fontawesome.com/a118b04c82.js"></script>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <!-- Chart.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
+
+  <!-- Style Sheets -->
+  <link href='/css/style.css' rel='stylesheet' />
+  <link href='/css/navbar.css' rel='stylesheet' />
+  <link href='/css/full-page-hero.css' rel='stylesheet' />
+  <link href='/css/hero.css' rel='stylesheet' />
+  <link href='/css/footer.css' rel='stylesheet' />
+  <link href='/css/odometer.css' rel='stylesheet' />
+  <link href='/css/charts.css' rel='stylesheet' />
+  <link href='/css/maps.css' rel='stylesheet' />
+  <link href='/css/videos.css' rel='stylesheet' />
+  <link href='/css/pull-quotes.css' rel='stylesheet' />
+</head>
+
+	<body>
+		<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">
+        <img alt="Brand" src="/img/cclbc_logo.png">
+      </a>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav pull-right">
+        <li><a href="introduction">Introduction</a></li>
+        <li><a href="mission">Mission</a></li>
+        <li><a href="problem">The Problem</a></li>
+        <li><a href="work">Our Work</a></li>
+        <li><a href="outcomes">Outcomes</a></li>
+        <li><a href="team">Team</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</nav>
+
+<div class="hero" style="background-image:url(img/demo2.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;">
+  <div class="page-hero-overlay"></div>
+  <div class="title-block">
+    <h1>Our Work</h1>
+    <p>Highlights of 2016 Activities</p>
+  </div>
+</div>
+
+<div class="content">
+  <p>Clearing of debris and regrading at the Portage Inn site in the Village of Westfield marks the completion of the $200,000 demolition. The historic inn sat vacant for almost 20 years after serial foreclosures left her derelict and unsafe. The Land Bank’s demolition funds were used to leverage an additional grant to build an access road and trail head for the Village.</p>
+
+<div class="number">
+  <div class="col-xs-2">
+    <span class="fa fa-home number-icon"></span>
+  </div>  
+  <div class="col-xs-10">
+    <div id="odometer" class="odometer demos">00</div>
+    <script>
+      $(window).scroll(function() {
+         var hT = $('.demos').offset().top,
+             hH = $('.demos').outerHeight(),
+             wH = $(window).height(),
+             wS = $(this).scrollTop();
+          console.log((hT-wH) , wS);
+         if (wS > (hT+hH-wH)){
+           setTimeout(function(){
+               $('.demos').html(45);
+           }, 100);
+         }
+      });
+    </script>
+  </div>
+  <div class="number-caption">Demolitions in to 2016</div>
+</div>
+
+<ul>
+  <li>We reached our milestone of 45 completed demolitions for a total investment of $954,595 in removing unsafe, blighted structures from the county’s landscape</li>
+  <li>Westfield noted the 6th Rehab property to be sold through the Land Bank’s Sales 4 Rehab program</li>
+</ul>
+<iframe class="pull-left video" width="560" height="315" src="https://www.youtube.com/embed/n_fFz9IbJmY" frameborder="0" allowfullscreen=""></iframe>
+<ul>
+  <li>Jim Caflisch, Director of Chautauqua County Real Property Tax Dept. is elected Chair of the CCLBC Board</li>
+  <li>The CCLBC launched its new independent web site at www.chautauqualandbank.org</li>
+  <li>The Land Bank moved to new office space at the Fredonia Technology Incubator in Dunkirk, NY</li>
+  <li>The Land Bank embarked on a new project with Orbitist.com, a young geo-spacial data analytics and marketing firm located at the Fredonia Tech Incubator to compile and present data on county-wide housing, vacancy, blight and its impacts. Data will be tracked and used to inform the Land Bank’s strategic investments as well as its performance over time. Orbitist will map data and develop multi-media communications to highlight the resulting information for educational, marketing and advocacy applications. One of those projects is the app below, which will engage the community in identifying and reporting vacant/abandoned homes around the county.</li>
+</ul>
+
+<p><a href="https://orbitist.space/cclbc/" target="blank" class="btn btn-default btn-lg center-block"><i class="fa fa-mobile"></i> Report Blight in your Neighborhood</a></p>
+
+<ul>
+  <li>The Land Bank successfully applied for three grants, providing vital funding for operations, work force assistance and renovation subsidies for a new program that will cultivate responsible local land lords of quality affordable housing.</li>
+</ul>
+<div class="number">
+  <div class="col-xs-2">
+    <span class="fa fa-dollar number-icon"></span>
+  </div>  
+  <div class="col-xs-10">
+    <div id="odometer" class="odometer grants">0.00</div>
+    <script>
+      $(window).scroll(function() {
+         var hT = $('.grants').offset().top,
+             hH = $('.grants').outerHeight(),
+             wH = $(window).height(),
+             wS = $(this).scrollTop();
+          console.log((hT-wH) , wS);
+         if (wS > (hT+hH-wH)){
+           setTimeout(function(){
+               $('.grants').html(1.50);
+           }, 100);
+         }
+      });
+    </script>
+  </div>
+  <div class="number-caption">Million dollars in grants for 2017 &amp; 2018</div>
+</div>
+<ul>
+  <li>We successfully secured another $1.5 m in grants for 2017 &amp; 2018.</li>
+</ul>
+
+<hr />
+
+<p><a href="outcomes" class="btn btn-default btn-lg center-block">Outcomes <i class="fa fa-arrow-right"></i></a></p>
+
+</div>
+<div class="footer">
+
+</div>
+
+
+		<script src="/js/navbar.js"></script>
+
+<!-- Odometer -->
+<script src="/js/odometer.min.js"></script>
+
+	</body>
+</html>
