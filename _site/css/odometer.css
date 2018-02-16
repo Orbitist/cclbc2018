@@ -138,6 +138,10 @@
   padding: 0;
 }
 
+.assessed-value, .private-investment {
+  font-size: 80px !important;
+}
+
 /* SMALL SCREEN OVERRIDES */
 @media (max-width: 500px) {
 
