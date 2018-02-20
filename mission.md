@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Our Mission"
-lead: "We're the Chautauqua County Land Bank Corporation.<br/>It's nice to meet you!"
+lead: "We minimize the negative impacts that substandard properties and structures have on communities,<br/> thereby stabilizing neighborhoods and main streets alike."
 image: "img/man_demo.jpg"
 ---
 <iframe class="center-block video" width="560" height="315" src="https://www.youtube.com/embed/hKwv6ZR_d2s?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
