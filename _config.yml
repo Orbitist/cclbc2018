@@ -3,10 +3,10 @@ permalink: :title
 highlighter: rouge
 markdown: kramdown
 
-title : CCLBC Annual Report 2017
+title : CCLBC Annual Report
 
-production_url : labs.orbitist.com/cclbc2017
+production_url : labs.orbitist.com/cclbc2018
 
-baseurl : /cclbc2017
+baseurl : /cclbc2018
 
 timezone : America/New_York
