@@ -4,7 +4,7 @@ title: "Our Mission"
 lead: "We minimize the negative impacts that substandard properties and structures have on communities,<br/> thereby stabilizing neighborhoods and main streets alike."
 image: "img/man_demo.jpg"
 ---
-<iframe class="center-block video" width="560" height="315" src="https://www.youtube.com/embed/hKwv6ZR_d2s?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+<iframe class="center-block video" width="560" height="315" src="https://www.youtube.com/embed/0cxsjEBQB80" frameborder="0" allowfullscreen></iframe>
 
 Control and manage strategically selected dilapidated and abandoned residential and commercial properties acquired through the County tax foreclosure process, bank foreclosures and/or donations, and facilitate solutions aimed at stabilizing neighborhoods, encouraging private investment, and improving the quality of life throughout Chautauqua County.
 
