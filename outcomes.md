@@ -20,6 +20,54 @@ Through the generous support of the county Legislature, the Chautauqua County La
 
 {% include charts/property-types.html %}
 
+# To date:
+
+<div class="number">
+  <div class="col-xs-2">
+    <span class="fa fa-home number-icon" style="height:111px;"></span>
+  </div>  
+  <div class="col-xs-10">
+    <div id="odometer" class="odometer assessed-value">0</div>
+    <script>
+      $(window).scroll(function() {
+         var hT = $('.assessed-value').offset().top,
+             hH = $('.assessed-value').outerHeight(),
+             wH = $(window).height(),
+             wS = $(this).scrollTop();
+          console.log((hT-wH) , wS);
+         if (wS > (hT+hH-wH)){
+           setTimeout(function(){
+               $('.assessed-value').html(62);
+           }, 100);
+         }
+      });
+    </script>
+  </div>
+  <div class="number-caption">Rehabs sold from 2013 - 2017</div>
+</div>
+
+# 2017 Activity in Dunkirk and Jamestown
+
+<div class="row">
+  <div class="col-md-3">
+    <p class="lead">Dunkirk Demos 2015 - 2018:</p>
+    <img src="img/maps/Dunkirk_demos_2015-2018.png" class="img-responsive">
+  </div>
+  <div class="col-md-3">
+    <p class="lead">Jamestown Demos 2015 - 2018:</p>
+    <img src="img/maps/Jamestown_demos_2015-2018.png" class="img-responsive">
+  </div>
+  <div class="col-md-3">
+    <p class="lead">Dunkirk Rehabs 2015 - 2018:</p>
+    <img src="img/maps/Dunkirk_rehabs_2015-2018.png" class="img-responsive">
+  </div>
+  <div class="col-md-3">
+    <p class="lead">Jamestown Rehabs 2015 - 2018:</p>
+    <img src="img/maps/Jamestown_rehabs_2015-2018.png" class="img-responsive">
+  </div>
+</div><!-- /.row -->
+<hr>
+
 # 2017 Financial Overview
 
 Statements of Financial Position:
