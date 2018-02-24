@@ -20,7 +20,7 @@ The stated Mission of the CCLBC is to: “Control and manage strategically selec
 
 The Board of the Chautauqua County Land Bank Corporation is composed of 11 members, appointed by the County Executive, subject to confirmation by the County Legislature. All Directors must be residents of or employed in Chautauqua County. Board members must be compliant with the governing legislation and regulatory requirements therein, including compliance with the NYS Accounting Budget Office’s requirements for financial disclosure, board training, and self-evaluation, as well as the Chautauqua County Code of Ethics. Board members are indemnified to the fullest extent under the Not-For-Profit Corporation Law of NYS.  The Board is governed by the corporation’s By-Laws as attached.
 
-[Governance Image]
+<img src="img/org_chart.jpeg" class="img-responsive" style="margin:auto;">
 
 The Board of Directors are appointed to serve staggered terms. Representation currently includes two (2) members of the County Legislature, the County Real Property Tax Director, local representatives from the banking and real estate industries, community development organizations and the general public. We endeavor to be representative across the county.
 
@@ -51,7 +51,7 @@ There are currently three (3) openings on the board, created by vacancies due to
 * Finance – reviews and makes recommendations to staff and Board regarding the annual budget, grant funding, and financial accounting and compliance.
 * Audit Committee – reviews and provides comment on the annual financial audit.
 
-[Image of the board]
+<img src="img/eagle.jpg" class="img-responsive" style="margin:auto;">
 
 <hr>
 
