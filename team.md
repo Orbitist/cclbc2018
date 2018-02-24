@@ -37,6 +37,22 @@ Current Members of the Board include:
 
 There are currently three (3) openings on the board, created by vacancies due to relocations.
 
+# Staff of the Chautauqua County Land Bank Corporation include:
+
+* Gina Paradis; Executive Director
+* Jennifer Cameron; Finance Manager (P/T)
+* Mike Digirolamo; Project Manager (P/T)
+* Steve Abdella and Allison Carrow; Attorneys [Legal Services are provided through a contract with the Chautauqua County Law Department]
+
+# Standing Committees of the Board include:
+
+* Acquisition/Disposition Committee – reviews potential acquisitions, donations and purchase proposals to recommend property acquisitions and dispositions to the full board.
+* Governance Committee – reviews and makes recommendations to the full board relating to all issues of governance, including but not limited to board regulatory compliance, best practices, and membership. Also serves as the Nominating Committee for board officers.
+* Finance – reviews and makes recommendations to staff and Board regarding the annual budget, grant funding, and financial accounting and compliance.
+* Audit Committee – reviews and provides comment on the annual financial audit.
+
+[Image of the board]
+
 <hr>
 
 <a href="http://www.chautauqualandbank.org/" class="btn btn-default btn-lg center-block">View our Website <i class="fa fa-arrow-right"></i></a>
